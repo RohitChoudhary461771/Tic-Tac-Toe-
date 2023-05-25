@@ -44,7 +44,7 @@ function swapTurn(){
         currentPlayer="X";
     }
     //UI Update
-    gameInfo.ineerText =`Current Player -${currentPlayer}`;
+    gameInfo.innerText =`Current Player -${currentPlayer}`;
 }
 function checkGameOver(){
     let answer ="";
